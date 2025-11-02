@@ -4,63 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="html2.css">
 </head>
-<body>
+<body id="top">
     <header> 
-      <nav>
-        <h1 class="logo"> Karan Singh Negi </h1>
+    <h1>My Portfolio</h1>
+    <nav>
     <ul>
    
-    <li><a href="about">about</a></li>
-    <li><a href="projects">projects</a></li>
-    <li><a href="contact">contact</a></li>
+    <li><a href="About">About</a></li>
+    <li><a href="Projects">Projects</a></li>
+    <li><a href="contact">Contact</a> </li>
    
     </ul>
     </nav>
     </header>
-    <br>
-    <section class="hero">
-        <h2>Welcome To My Portfolio</h2>
-        <p1>Hello! i am karan singh negi. this is my personal portfolio website.</p1>
-
-
-    <section id="about">
-        <h2>About Me</h2>
-        <div class="about-box">
-        <img src="IMG_20250827_195957496_HDR_PCT~2.jpg" width="150" alt="profile photo" class="profile-img"/>
-        <br>
-        <p>i am a student of web development at k.r. mangalam university</p>
-        <br>
-        </div>
+      
+    <section id="About">
+        <h2>About me</h2>
+        <img class="profile-photo" src="profilephoto.jpg" width="150" alt="profile photo of karan singh negi"/>
+        <br><br>
+        <p1>hello, My Name is Karan Singh Negi ,i am a student of web development at k.r. mangalam university</p1>
     </section>
 
-    <section id="projects">
-     <h2>My Projects</h2>
-     <div class="project-box">
-     <ul> 
-    
-      <p2><li><b>Portfolio Website : </b> A personal one-page website to showcase your bio,skills, and contact details.</li></p2>
-      <br><br>
-      <p3><li><b>Medium clone : </b>A simple blog layout that looks like a medium, bulit only with HTML and CSS.</li></p3>
-      <br><br>
-      <p4><li><b>Birthday card : </b>A creative greeting card webpage designed with HTML structure and CSS styling.</li></p4>
-      <br><br>
-      <p5><li><p><b>User form : </b> A form webpage with fields like name, email, and message for practicing form handling.</li></p5>
-    
-     </ul>
-     </div>
-    <section>
+    <hr>  
 
+    <section id="Projects">
+    <h1>My Projects</h1>
+    <p1>calorie tracker by using python</p1>
     <br>
-    <section id="skills">
-<h1>Technical Skills</h1>
+    <img src="calorietracker.jpg" width="300" height="500"/>
+    </section>
+<hr>
+<br>
+<h1>Technical skills</h1>
 
-    <table border="2" cellpadding="5" cellspacing="2">
+    <table border="2" cellpadding="5" cellspacing="0">
 
     <tr>
-        <th>Skills</th>
-        <th>Level</th>
+        <th class="batman">Skills</th>
+        <th class="batman">Level</th>
     </tr>
 
     <tr>
@@ -78,24 +61,38 @@
         <td>Learning</td>
     </tr>
     </table>
-    </section>
-    <br>
 
-    <section id="contact">
+<hr>
+<br>
 <h1>contact me</h1>
-    <form>
-    <label>name:</label>
-    <input id="name" type="text" placeholder="enter your name"/>
-    <br><br>
-    <lable>email:</lable>
-    <input id="email" type="email" placeholder="enter your email"/>
-    <br><br>
-    <lable>message :</lable>
-    <textarea></textarea>
+    
+    <section id="contact">    
+    <table border="1" cellpading="5" cellspacing="0">
+    <form> 
+    <tr>
+        <td><label>name:</label></td>
+        <td><input id="name" type="text" placeholder="enter your name"/></td>
+    </tr>
+    <tr>
+        <td><lable>email:</lable></td>
+        <td><input id="email" type="email" placeholder="enter your email"/></td>
+    <tr>
+    <tr>
+        <td><lable>message :</lable></td>
+        <td><textarea placeholder="enter your message"></textarea></td>
+    </tr>
+    <tr>
+        <td colspan="2"><button type="submit">send</button></td>
+    </tr>
     </form>
-    <br>
-    <button id="topBtn">send</button>
+    </table>
     </section>
+    <br>
+    
+    <button id="topBtn"><a href="#top">Back to top</a></button>
 
+<div></div>    
 </body>
 </html>
+   
+   
